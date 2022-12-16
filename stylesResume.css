@@ -1,0 +1,122 @@
+.titulos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:teal;
+    color:whitesmoke;
+    font-size: 220%;
+    text-align: center;
+  }
+
+  body{
+    background-image: url("https://img.freepik.com/foto-gratis/papel-pintado-pared-hormigon-pintado-textura-concepto-coloreado_53876-31799.jpg?w=1480&t=st=1671169777~exp=1671170377~hmac=ab7eabd178a9a4527ebf4221d676a955d3335d4f163492659426f3ea670c92b6");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .decorado{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:antiquewhite;
+    font-weight: bolder;
+    font-size: 140%;
+    text-align: center;
+  }
+  .especial{
+    border:solid 2px teal;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: darkgrey;
+    color:black;
+    font-size: 120%;
+
+  }
+  .normal{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:antiquewhite;
+    color:black;
+    font-size: 120%;
+    text-align: center;
+    margin: 1cm;
+  }
+img{
+    width: 9cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.borde{
+  border: 3px solid white;
+}
+.menu{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black;
+  background-color: teal;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  border: initial
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
